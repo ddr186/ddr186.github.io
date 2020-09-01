@@ -32,7 +32,7 @@ $(() => {
     }
 // I couldn't get the ajax method to work regarding syntax errors. I found this method to work.
     const getRandomJoke = () => {
-      $.get("http://api.icndb.com/jokes/random", (data) => {
+      $.get("https://api.icndb.com/jokes/random", (data) => {
         $('#joke-text').text(data.value.joke)
       })
 
