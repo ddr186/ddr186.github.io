@@ -1,0 +1,84 @@
+/* * {
+  border: solid gold;
+} */
+body {
+  height: 100%;
+  width: 100%;
+  margin:auto;
+  padding: auto;
+}
+
+
+
+
+.body-img {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTGHjanYV3g0-HZt6IF9pMPWO5bWjOBOj8W3Q&usqp=CAU");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  margin: auto;
+  padding: auto;
+  /* background-color: black; */
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Monoton', cursive;
+  color: violet;
+  text-decoration: underline;
+  text-shadow: 5px;
+
+}
+
+p {
+  padding: 30px;
+}
+
+
+.chuckpic {
+  width: 1000px;
+  background-size: cover;
+}
+
+#chuckModal {
+	display: none;
+	background-color: rgba(0, 0, 0, 0.4);
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	overflow: auto;
+  padding: 30px;
+}
+
+#modal-textbox {
+	background-color: white;
+  color: white;
+  font-size: 18pt;
+  background-image: url("https://wallpapercave.com/wp/JDYyvkJ.jpg");
+	height: 600px;
+	width: 550px;
+	border-radius: 2px;
+	margin: 150px auto;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+
+}
+
+#jokeModal {
+  display: none;
+
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  overflow: auto;
+
+}
