@@ -50,11 +50,11 @@ $(() => {
     $jokeBtn.on('click', getRandomJoke)
     $closeJoke.on('click', closeJokeModal)
 
-    setTimeout(openModal, 1000);
-    setTimeout(closeModal, 3000);
+    setTimeout(openModal, 3000);
+    setTimeout(closeModal, 6000);
 
-    setTimeout(getRandomJoke, 5000);
-    setTimeout(closeJokeModal, 8000)
+    setTimeout(getRandomJoke, 9000);
+    setTimeout(closeJokeModal, 14000)
 
 
 
