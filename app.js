@@ -21,6 +21,10 @@ $(() => {
       $chuckModal.css('display', 'block')
     }
 
+    const openJokeModal = () => {
+      $jokeModal.css('display', 'block')
+    }
+
 
     const closeModal = () => {
       $chuckModal.css('display', 'none')
@@ -46,7 +50,11 @@ $(() => {
     $jokeBtn.on('click', getRandomJoke)
     $closeJoke.on('click', closeJokeModal)
 
-    setTimeout(openModal, 5000);
+    setTimeout(openModal, 1000);
+    setTimeout(closeModal, 3000);
+
+    setTimeout(getRandomJoke, 5000);
+    setTimeout(closeJokeModal, 8000)
 
 
 
