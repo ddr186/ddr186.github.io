@@ -7,7 +7,7 @@ Functionality-
 
 The functionality is simple on this site. Click either the 'Get Joke of the Day" button or the "Chuck Norris Bio" button to read their texts. I decided to implement a timeout function feature for both of my modals so they flash on screen to see the features of the site. I purposely set it for a short amount of time because of this. After the modals disappear, you will need to press the physical buttons in  the top left corner to finish reading Chuck's bio or gathering a different random quote. You also need to click the close buttons to either close the bio or the joke of the day.
 
-I was able to get my main background to be functional, I had a hard time with getting both of the modules to cooperate.
+I was able to get my main background to be functional, I had a hard time with getting both of the modules to cooperate. Another thing I had trouble of what that there were some jokes with quotes and instead of parenthesis, the part of text was wrapped in "&quot" when it pulls from the API. I didn't know how to get rid of that.
 
 references-
 
